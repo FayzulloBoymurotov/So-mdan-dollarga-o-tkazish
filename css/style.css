@@ -1,0 +1,110 @@
+/* HOMEWORK-3 */
+.row {
+    width: 600px;
+    height: 500px;
+    padding: 200px 300px;
+}
+
+
+.forms {
+    width: 700px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #48dbfb;
+}
+
+body {
+    background-color: #487eb0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+    outline: none;
+    border: none;
+    background-color: #9AECDB;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input:hover {
+    background-color: #dfe4ea;
+    transition: .4 ease-in;
+}
+
+input:active {
+    background-color: #ced6e0;
+    transition: .4 ease-in-out;
+}
+
+
+button {
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #9AECDB;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #dfe4ea;
+    transition: .4 ease-in-out;
+}
+
+button:active {
+    background-color: #dfe4ea;
+    transition: .4 ease-in-out;
+}
+
+select {
+    align-items: center;
+    margin-right: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #9AECDB;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+select:hover {
+    background-color: #dfe4ea;
+    transition: .4 ease-in-out;
+}
+
+select:active {
+    background-color: #dfe4ea;
+    transition: .4 ease-in-out;
+}
+
+.option {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.name__text {
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 290px;
+}
+
+.js-text {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 220px;
+    text-align: center;
+    display: flex;
+}
